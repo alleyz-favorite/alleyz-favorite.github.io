@@ -35,23 +35,25 @@ yo jhipster
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-2.png)
 
-> 然后选择测试选择，这里选择gatling（压力测试）
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-3.png)
 
-> 然后继续选择，如下图，已经选择完所有的选项，正在生成项目
+> 然后选择测试选择，这里选择gatling（压力测试）
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-4.png)
 
-> 项目生成成功之后，会显示如下如，生成成功的标识，并说明如何启动项目。
+
+> 然后继续选择，如下图，已经选择完所有的选项，正在生成项目
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-5.png)
 
-
-> 修改配置文件中关于mysql数据库的配置，修改成自己的配置，如果没有数据库可以创建新的数据库
+> 项目生成成功之后，会显示如下如，生成成功的标识，并说明如何启动项目。
 
  ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-6.png)
  
+> 修改配置文件中关于mysql数据库的配置，修改成自己的配置，如果没有数据库可以创建新的数据库
+  ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-7.png)
+
 > 修改完配置文件之后，执行命令启动服务
 
 ```
