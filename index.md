@@ -10,6 +10,8 @@
 2. [window环境使用jhipster创建项目](./docs/jhipster/create-project.md)
 > 本文描述了Windows环境下，使用jhipster创建四种类型的项目，并在本地运行所创建的项目。
 
+3. [Linux环境搭建jhipster并创建项目](./docs/jhipster/dd_jhipster.md)
+> 本文描述了Linux环境下，搭建jhipster环境并创建微服务项目。
 
 ### 标题3
 
