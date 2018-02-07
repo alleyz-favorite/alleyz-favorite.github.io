@@ -220,7 +220,7 @@ tar (child): bzip2: Cannot exec: No such file or directory
 your database is NOT ready: Validation Failed:
 1 change sets check sum          config/liquibase/changelog/00000000000000_initial_schema.xml::00000000000001::jhipster was: 7:1a93aa1077a0f85c08092bf95f44c635 but is now: 7:9d88ecd533d5a3530e304f778b9dc982
 
-**解决：**原因是每个不同的应用使用了同一个数据库，从而导致数据库记录与程序记录不一致导致，
+**解决** 原因是每个不同的应用使用了同一个数据库，从而导致数据库记录与程序记录不一致导致，
 1. 可以修改默认配置，不使用自动生成表结构
 2. 每次启动不同应用前都删除数据库中的表
 3. 不用管，项目依然可以启动
