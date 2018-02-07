@@ -4,7 +4,7 @@
 > 
 
 [使用说明](index-old.md).
-
+[测试页面](./docs/jhipster/myindex.md)
 ## 标题2
 
 ```
