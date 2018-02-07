@@ -75,9 +75,9 @@ $ sass -v
 $ gem install compass
 $ gem install fssm
 $ gem install chunky_png
-# 以上三个都安装成功，查看compass版本才会成功
+$ # 以上三个都安装成功，查看compass版本才会成功
 $ compass -v
-# 卸载
+$ # 卸载
 $ gem uninstall compass
 ```
 
