@@ -29,11 +29,11 @@ yo jhipster
 ```
 > 执行上面的命令后，如下图选择应用类型，这里我们选择综合应用类型  
 
-![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-1.png)
+![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/docs/images/create-project-1.png)
 
 > 选择国际化时可以选择两种语言，这里选择中文和英文
 
-![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-2.png)
+![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/docs/images/create-project-2.png)
 
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-3.png)
