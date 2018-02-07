@@ -144,9 +144,9 @@ yo jhipster
 > 选择微服务应用
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-19.png)
 > 然后选择相应的选择
-![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-20.png)
-
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-21.png)
+
+![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-20.png)
 
 > 生成成功后，修改mysql配置
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/blob/qianxm/docs/images/create-project-22.png))
