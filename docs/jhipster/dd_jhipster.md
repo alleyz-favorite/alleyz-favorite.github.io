@@ -32,6 +32,7 @@ $ vim /etc/profile
 ```
 
 5. 添加以下内容：
+
 ```sh
 $ #set for nodejs
 $ NODE_HOME=/usr/local/node
@@ -67,7 +68,8 @@ $ yum install git
 3. 配置环境变量，在path中添加Ruby的bin目录。
 4. 安装compass。我们只能使用本地安装的方式来安装。本地安装需要下载4个文件：[SASS](http://rubygems.org/downloads/sass-3.2.13.gem)，[Chunky_png](http://rubygems.org/downloads/chunky_png-1.2.9.gem)，[Fssm](http://rubygems.org/downloads/fssm-0.2.10.gem)和[Compass](http://rubygems.org/downloads/compass-0.12.2.gem)。
 5. 将这4个文件放在ruby的安装根目录下，如我安装在C:Program Files/ruby，然后打开控制台切换到ruby的安装目录。
-6. 命令安装
+6. 命令安装:
+
 ```sh
 $ gem install sass
 $ sass -v
