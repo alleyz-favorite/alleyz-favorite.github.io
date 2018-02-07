@@ -3,13 +3,9 @@
 > 以后的笔记导航页面
 > 
 
-[使用说明](index-old.md).
-[测试页面](./docs/jhipster/myindex.md)
-## 标题2
-
-```
-## 标题2
-```
+## jhipster
+1. [windows 环境安装jhipster](./docs/jhipster/jhipster-installing.md) 
+2. [jhipster四种类型项目生成参考](./docs/jhipster/create-project.md)
 
 
 ### 标题3
