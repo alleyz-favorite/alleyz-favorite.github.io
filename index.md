@@ -18,8 +18,13 @@
 > 描述：本文描述了Linux环境下，搭建jhipster环境并创建微服务项目。
 
 4. [jhipster 实体类生成以及服务间调度](./docs/jhipster/jhipster-entity.md)
-> 作者：钱雪梅
+> 作者：钱雪梅<br>
 > 描述：本文主要介绍了如何在已生成的项目中，使用jhipster生成实体类，并演示了一个简单的例子，介绍了微服务调度。
+
+5. [利用jhipster搭建自己的微服务](./docs/jhipster/jhipster-microservice.md)
+> 作者：丁冬<br>
+> 描述：本文描述了如何利用jhipster搭建自己的微服务。
+
 
 ### 标题3
 
