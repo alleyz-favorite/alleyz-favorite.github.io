@@ -49,16 +49,18 @@ yo jhipster
 
 > 项目生成成功之后，会显示如下如，生成成功的标识，并说明如何启动项目。
 
- ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-6.png)
+![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-6.png)
  
 > 修改配置文件中关于mysql数据库的配置，修改成自己的配置，如果没有数据库可以创建新的数据库
-  ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-7.png)
+
+![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-7.png)
 
 > 修改完配置文件之后，执行命令启动服务
 
 ```
 mvn spring-boot:run
 ```
+
 > 启动成功后访问，http://localost:8080/
 登录用户名和密码均为admin
 
@@ -90,77 +92,108 @@ mvn -Pdev,webpack 时会出现空白页问题，可以先执行yarn && yarn star
 #### 2. 微服务身份验证中心（UAA）
 > 使用jhipster创建uaa应用步骤
 和创建综合项目类似，创建目录，然后执行命令选择需要的选项生成即可。
+
 ```
  yo jhipster
 ```
+
 > 选择Uaa服务
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-10.png)
+
 > 然后继续选择其他的选项，如下图
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-11.png)
 
 > 等待项目生成，生成成功后，如下图
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-12.png)
 
 > 修改mysql配置
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-13.png)
 
 > 然后执行命令启动应用
+
 ```
 mvn spring-boot:run
 ```
+
 **注意：一定要先启动注册中心，否则会报错**
 启动成功后可以在注册中心中看到，uaa应用。
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-14.png)
 
 #### 3. 微服务网关
+
 ```
 yo jhipster
 ```
+
 > 与之前的项目生成步骤类似，选择网管服务
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-15.png)
 
 > 然后选择相应的选择
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-16.png)
 
 > 生成成功后，修改mysql配置
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-13.png)
+
 > 启动服务
+
 ```
 mvn spring-boot:run
 ```
+
 > 启动成功后，在注册中心中也可以看到启动成功的网关应用。
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-17.png)
 
 > 可以访问http://localhost:8080,这里的端口号是在选择选项过程中可配置
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-18.png)
 
 #### 4. 微服务应用
+
 > 微服务应用的创建和网管服务的创建步骤基本一致
+
 执行命令：
 ```
 yo jhipster
 ```
+
 > 选择微服务应用
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-19.png)
+
 > 然后选择相应的选择
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-21.png)
 
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-20.png)
 
 > 生成成功后，修改mysql配置
-![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-22.png))
+
+![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-22.png)
+
 > 启动服务
+
 ```
 mvn spring-boot:run
 ```
+
 > 启动成功后，在注册中心中也可以看到启动成功的网管应用。
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-23.png))
 
 > 可以访问http://localhost:8081,这里的端口号是在选择选项过程中可配置
 
 
 **注意：关于端口问题，在选择端口时一定到确保端口没有被占用，否则项目启动是会报错**
+
 ![image](https://github.com/hollycrm-td/hollycrm-td.github.io/raw/master/docs/images/create-project-24.png)
 
 如果出现端口被占用情况，可以在配置applicatio-dev.yml文件中修改。
