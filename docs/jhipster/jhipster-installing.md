@@ -40,19 +40,24 @@ undefined
 ```
 
 - **配置npm的全局模块存放路径以及cache**
+
  ```
  npm config set prefix “D:\Program Files (x86)\nodejs\node_global”
  npm config set cache “D:\Program Files (x86)\nodejs\node_cache”
  ```
 
 - **选择安装express模块在命令行中输入**
+
  ```
  npm install express -g
  ```
+ 
 - **成功后配置node-path**
+
 NODE_PATH=D:\Program Files (x86)\nodejs\node_global\node_modules
 
 - **然后全局安装 Angular CLI** 
+
 > jhipster 中默认时候angular js
 [安装步骤](http://blog.csdn.net/zhy13087344578/article/details/60745667)
 
@@ -70,9 +75,9 @@ npm install -g @angular/cli
 [安装教程](https://www.cnblogs.com/ximiaomiao/p/7140456.html)
 
 **3.compass安装** 
-> ==安装yeoman之前需要安装Ruby 和compass== Compass 是一个用来开发 CSS 的工具，yeoman启动时需要依赖这个工具    
+> **安装yeoman之前需要安装Ruby 和compass** Compass 是一个用来开发 CSS 的工具，yeoman启动时需要依赖这个工具    
   
-[教程](http://blog.csdn.net/dw1067061570/article/details/54947106)
+[windows下安装sass和compass教程](http://blog.csdn.net/dw1067061570/article/details/54947106)
 
 安装成功后
 **配置环境变量：D:\Program Files (x86)\Ruby\bin**
@@ -100,10 +105,11 @@ compass -v
 # 卸载
 gem uninstall compass
 ```
-> ==注意：这里四个文件需要分别执行否则安装失败，如果安装失败可以将已经安装的卸载重新安装即可，安装教程里只执行了一个命令，所以在这个地方重新安装了三次才成功。==
+
+> **注意：这里四个文件需要分别执行否则安装失败，如果安装失败可以将已经安装的卸载重新安装即可，安装教程里只执行了一个命令，所以在这个地方重新安装了三次才成功。**
 
 **4. yeoman**  
-[安装教程](http://blog.csdn.net/u012586558/article/details/52923358)
+[YEOMAN安装教程](http://blog.csdn.net/u012586558/article/details/52923358)
 执行以下命令即可：
 
 ```
@@ -115,6 +121,7 @@ npm install -g bower
  npm install -g grunt-cli 
 /npm install -g gulp
 ```
+
 > 安装成功后配置环境变量，yo.cmd所在路径。D:\Program Files (x86)\nodejs\node_global添加到path中
 
 
