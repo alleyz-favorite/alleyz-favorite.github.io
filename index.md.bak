@@ -21,15 +21,6 @@
 > 作者：钱雪梅
 > 描述：本文主要介绍了如何在已生成的项目中，使用jhipster生成实体类，并演示了一个简单的例子，介绍了微服务调度。
 
-5. [利用jhipster搭建自己的微服务](./docs/jhipster/jhipster-microservice.md)
-> 作者：丁冬<br>
-> 描述：本文描述了如何利用jhipster搭建自己的微服务。
-
-6. [微服务之间调度](./docs/jhipster/micro-service.md)
-> 作者：钱雪梅<br>
-> 描述：本文通过一个简单的小例子。介绍了微服务之前如何进行调用。
-
-
 ### 标题3
 
 ```

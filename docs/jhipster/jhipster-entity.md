@@ -17,6 +17,7 @@ yo jhipster:entity author
 
 2. 填写实体类信息 
 然后会显示选项，是否需要添加字段，以及字段的一些信息。
+
 ```
 D:\workspace\jhipsterExmple\exmplemysql>yo jhipster:entity author
 
