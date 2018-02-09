@@ -4,7 +4,7 @@
 #### 1. 编写服务
 在jhipster生成的微服务中按照controller以及service服务开发程序，例如在rest包下编写controller类
 
-![Alt text](./images/W~R5JNH9O[{DWOH94`_YFSH.png)
+![Alt text](./images/jhipster-microservice-1.png)
 
 按照以往的开发方式即可。
 
@@ -13,16 +13,16 @@
 注册中心registry -> UAA -> 网关服务 -> 微服务。
 启动后可以在注册中心看到注册的服务
 
-![Alt text](./images/15178791651.jpg)
+![Alt text](./images/jhipster-microservice-2.jpg)
 
 #### 3. 访问服务
 全部启动后可以在注册中心以及网关路由那里看到所有的服务
 
-![Alt text](./images/Z2J2DL5N90N2OCSS.png)
+![Alt text](./images/jhipster-microservice-3.png)
 
 访问微服务时，需要在URI前加上服务的映射路径，我们部署的微服务映射路径为/app/**，所以我们访问我们的微服务时路径为下图
 
-![Alt text](./images/1518761801.png)
+![Alt text](./images/jhipster-microservice-4.png)
 
 
 ### spring cloud
