@@ -7,7 +7,7 @@
 
 1. [windows 环境安装jhipster](./docs/jhipster/jhipster-installing.md) 
 
-	作者：钱雪梅  
+	作者：钱雪梅<br>  
 	描述：主要描述了Windows环境下jhipster的安装步骤，以及jhipster所需要的环境，安装过程中遇到的一些问题。
 
 2. [windows环境使用jhipster创建项目](./docs/jhipster/create-project.md)  
