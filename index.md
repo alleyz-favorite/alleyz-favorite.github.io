@@ -17,7 +17,7 @@
 
 3. [Linux环境搭建jhipster并创建项目](./docs/jhipster/linux_jhipster.md)  
 
-  作者：丁冬<br>
+  	作者：丁冬<br>
 	描述：本文描述了Linux环境下，搭建jhipster环境并创建微服务项目。
 
 4. [jhipster 实体类生成以及服务间调度](./docs/jhipster/jhipster-entity.md)    
