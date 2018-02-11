@@ -1,6 +1,6 @@
 # 微服务之间调度
 
-在上一篇笔记[jhipster 实体类生成以及服务间调度](./docs/jhipster/jhipster-entity.md)中我们大致介绍了如何通过网关调用服务。并创建了3个微服务应用。  
+在上一篇笔记[jhipster 实体类生成以及服务间调度](https://hollycrm-td.github.io/docs/jhipster/micro-service.html)中我们大致介绍了如何通过网关调用服务。并创建了3个微服务应用。  
 
 `说明：注册中心要先运行，负责其他的服务无法注册到祖册中心导致运行失败，然后再运行UAA，如果UAA没有运行，则网关服务无法启动，然后是其他的微服务应用。`  
 
