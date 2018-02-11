@@ -2,7 +2,7 @@
 # 微服务架构
 
 ## 微服务注册与发现
- 微服务架构中，服务发选择用画笔数非常关键的组件，服务消费者需要一个欠打的服务发现机制，用来获取服务提供者的网络信息。
+ 微服务架构中，服务发现组件是非常关键的组件，服务消费者需要通过的服务发现机制，来获取服务提供者的网络信息。
  
  Spring cloud 提供了多种服务发现组件，Eureka、consul、Zookeeper等，这里我们主要使用eureka。
  
@@ -25,6 +25,8 @@ Eureka client：是java客服端，会缓存服务注册表中的信息。会降
 2. 在服务的启动类上添加注解@EnableEurekaServer，来声明这个服务是Eureka Server。
 
 ![Alt Text](./images/micro-service-register-1.png)
+
+在我们之前提到的jhipster registry注册中心就是一个注册服务。
 
 *****
 参考书籍
