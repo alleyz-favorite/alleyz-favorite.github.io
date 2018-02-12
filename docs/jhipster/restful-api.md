@@ -15,7 +15,7 @@ REST 的全称是Representational State Transfer，意思是“表现成状态�
 
 
 ## 2. RESTful API
-> RESTful API是指符合REST的API。HTTP协议就是属于REST架构的设计模式。
+RESTful API是指符合REST的API。HTTP协议就是属于REST架构的设计模式。
 
 ### 1. API 路径规则
 API网址中不能有动词，只能有名称，且都是对照数据库表名对应或者具体功能。
