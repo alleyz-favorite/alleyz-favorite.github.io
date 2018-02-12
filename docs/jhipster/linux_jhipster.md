@@ -118,7 +118,7 @@ $ npm install -g generator-jhipster
 $ yo jhipster
 ```
 
-![Alt text](./images/15180054141.jpg)
+![Alt text](./images/linux-jhipster-1.jpg)
 
 注意：不要使用root用户操作，会有权限问题，root用户生成的文件其他用户不能访问，尽量在普通用户下操作。
 
@@ -160,7 +160,7 @@ $ ./mvnw -X 或 mvn pring-boot:run -X
 3. 访问注册中心
 > http://192.168.24.130:8761
 
-![Alt text](./images/15178874031.jpg)
+![Alt text](./images/linux-jhipster-2.jpg)
 
 
 #### 2. UAA 身份认证中心
@@ -173,22 +173,22 @@ $ yo jhipster
 
 2. 选择UAA服务
 
-![Alt text](./images/15178815041.jpg)
+![Alt text](./images/linux-jhipster-3.jpg)
 
 在生成服务过程中可能会出现如下错误
 
-![Alt text](./images/15178815651.jpg)
+![Alt text](./images/linux-jhipster-4.jpg)
 
 可以删除文件重新生成，同一个文件夹下会记录上次的选项，但是直接生成貌似依旧会报错，所以需要删除整个文件夹，然后重新创建文件夹。此时再生成服务时需要再次选择选项。直到出现如下提示才算成功
 
-![Alt text](./images/15178823511.jpg)
+![Alt text](./images/linux-jhipster-5.jpg)
 
 3. 修改配置文件
 ```sh
 $ vim src/main/resources/config/application-dev.yml
 ```
 
-![Alt text](./images/15178998281.jpg)
+![Alt text](./images/linux-jhipster-6.jpg)
 
 修改注册中心地址以及MySQL服务配置。
 
@@ -202,7 +202,7 @@ $ yo jhipster
 
 2. 选择选项
 
-![Alt text](./images/15178834451.jpg)
+![Alt text](./images/linux-jhipster-7.jpg)
 
 创建过程中一般不会报错，如果出现`Error`，删除文件重新生成即可。
 
@@ -223,7 +223,7 @@ $ yo jhipster
 
 2. 选项
 
-![Alt text](./images/15179003611.jpg)
+![Alt text](./images/linux-jhipster-8.jpg)
 
 3. 修改配置
 ```sh
@@ -241,21 +241,21 @@ $ yo jhipster:entity entityName
 
 2. 执行命令生成实体类
 
-![Alt text](./images/15179914391.jpg)
+![Alt text](./images/linux-jhipster-9.jpg)
 
 注意：生成实体时要慎重选择对应关系，复杂的对应关系代表着复杂的处理逻辑。
 
 3. 生成实体后在页面可以进行操作
 
-![Alt text](./images/15179956921.jpg)
+![Alt text](./images/linux-jhipster-10.jpg)
 
 #### 6. 启动服务
 1. 确定修改了UAA、APP、网关的配置文件，文件中的数据库以及注册中心的配置。
 2. 依次启动注册中心、UAA服务、APP服务、网关服务，全部启动后访问`http://localhost:8761`，可以看到注册到注册中心的服务。访问`http://localhost:8080`可以看到项目首页。
 
-![Alt text](./images/15178791651.jpg)
+![Alt text](./images/linux-jhipster-11.jpg)
 
-![Alt text](./images/TIM20180207201555.png)
+![Alt text](./images/linux-jhipster-12.png)
 
 
 -------------------------
@@ -274,7 +274,7 @@ tar (child): bzip2: Cannot exec: No such file or directory
 
 #### 3. 缺少依赖
 
-![Alt text](./images/15178836511.jpg)
+![Alt text](./images/linux-jhipster-13.jpg)
 
 **描述：** 具体错误可查看日志详细内容，`PhantomJS not found on PATH`，本次错误是缺少PhantomJS 依赖，由程序下载安装包后不能解压导致。
 
@@ -282,7 +282,7 @@ tar (child): bzip2: Cannot exec: No such file or directory
 
 #### 4. server error
 
-![Alt text](./images/15178815651.jpg)
+![Alt text](./images/linux-jhipster-4.jpg)
 
 **描述：** 在生成jhipster项目时报错
 ```
@@ -305,7 +305,7 @@ your database is NOT ready: Validation Failed:
 
 #### 6. 超时问题
 
-![Alt text](./images/15179029001.jpg)
+![Alt text](./images/linux-jhipster-14.jpg)
 
 **描述：** 当虚拟机中同时启动四个应用时，所有服务全部都报错，Read time out或者是null
 
