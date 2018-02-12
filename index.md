@@ -44,7 +44,16 @@
 8. [微服务注册与发现](./docs/jhipster/micro-service-register.md)  
 
 	作者：钱雪梅<br>
-	描述：简单介绍了基于Eureka的微服务架构注册与发现。
-	
+	描述：简单介绍了基于Eureka的微服务架构注册与发现。	
+
+9. [Restful API简介](./docs/jhipster/restful-api-dd.md)  
+
+	作者：丁冬<br>
+	描述：简单介绍了Restful API的概念与规则。
+
+10. [前后端分离](./docs/jhipster/separate-development-dd.md)  
+
+	作者：丁冬<br>
+	描述：简单介绍了前后端分离的概念与优劣势。
 
 
